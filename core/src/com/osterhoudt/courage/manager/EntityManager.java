@@ -45,7 +45,7 @@ public class EntityManager {
         Entity player = new Entity();
         PositionComponent p = new PositionComponent(100, 100);
         AnimationComponent a1 = new AnimationComponent(AnimationManager.spriteSheet, 100, AnimationManager.playerWest);
-        SpriteComponent s = new SpriteComponent(new Texture(a1.getCurrentFrame().toString()));
+        SpriteComponent s = new SpriteComponent(new Texture("PlayerIdleSouth.png"));
         VelocityComponent v = new VelocityComponent(3, 3);
         StateComponent sC = new StateComponent();
 
